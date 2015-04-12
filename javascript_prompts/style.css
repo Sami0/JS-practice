@@ -1,0 +1,23 @@
+body {
+  background-color:#282828;
+  
+}
+h2{color:#585858;
+
+}
+p{color:#A0A0A0;
+  margin:;
+  padding:;
+}
+button {
+      font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #A0A0A0; 
+    
+    border: 1px solid #999;  
+    
+    background-color: #585858;
+    text-decoration: none;
+    border-radius: 12px;
+}
