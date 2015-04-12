@@ -24,4 +24,6 @@ var ocean =prompt
   ("how much of the ocean have we explored ?\n\n more than 10%  \n\n  less than 1% \n\n less than 5% \n\n less than 0.005% ");
 if  ( ocean=="less than 5%") { 
  alert(" your answer is correct !");}
+else { alert(" your answer is wrong try again");}
 }
+
