@@ -5,7 +5,7 @@ background-color:#282828;
 #box{
 padding:5px;
 width:500px;
-height:100px;
+height:140px;
     border: 1px solid #999;  
   background-color: #585858;
   color: #A0A0A0; 
@@ -16,4 +16,7 @@ button {
   color: #A0A0A0; 
   border-radius:15px;
   
+}
+#RN {
+    color:#000000;
 }
