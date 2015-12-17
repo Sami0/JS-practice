@@ -1,0 +1,28 @@
+
+h1{
+	margin: 50px;
+	color: #000000;
+}
+p{
+	color: #f1f1f1;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=3eac7c7ca13559adc93b7f23f1fb653b");
+ background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+
+button {
+      font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #ffffff; 
+    
+    border: 1px solid #085DED;  
+    
+    background-color: #4487FA;
+    text-decoration: none;
+    border-radius: 12px;
+}
