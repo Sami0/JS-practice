@@ -5,7 +5,7 @@ function myFunction()
 {
 var correct = 0 ;
 
-var answer1 = prompt("what is the captial city of New zeland ? \n\n 1-Auckland \n\n 2-Melbourne \n\n3-Wellington ");
+var answer1 = prompt("what is the captial city of New zealand ? \n\n 1-Auckland \n\n 2-Melbourne \n\n3-Wellington ");
 if ( answer1.toUpperCase() === 'WELLINGTON') {
 correct += 1;
 }
