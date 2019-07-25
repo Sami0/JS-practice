@@ -11,7 +11,76 @@
 
   <h1> Geography Quiz</h1>
 
-<button onclick="myFunction()">  Start Quiz</button>
+
+
+
+
+  <div class="bg-square">
+<form id="geoquiz" name="geoquiz">
+   <h3> Q1-What is the captial city of New Zealand ?</h3>
+  <div class="q-style">
+    <input type="radio" id="c-a"  name="Q1answer" value="Auckland" > <label>1-Auckland </label>
+    <input type="radio" id="M-a" name="Q1answer" value="Melbourne"> <label >2-Melbourne </label>
+    <input type="radio" id="W-a" name="Q1answer" value="Wellington"><label > 3-Wellington </label>
+  </div>
+
+  <h3> Q2-What is the Country that has the largest surface area?</h3>
+  <div class="q-style">
+    <input type="radio" id="USA"  name="Q2answer" value="USA" > <label >1-USA </label>
+    <input type="radio" id="RUS" name="Q2answer" value="Russia"> <label >2-Russia </label>
+    <input type="radio" id="CHINA" name="Q2answer" value="China"><label > 3-china </label>
+  </div>
+
+  <H4>Q3-What is the Captial city of Kenya?</H4>
+<div class="q-style">
+
+    <input type="radio" id="K_M"  name="Q3answer" value="Mombasa " > <label > 1-Mombasa </label>
+   <input type="radio" id="K_A"  name="Q3answer" value="Addis" >  <label >2-Addis Ababa  </label>
+   <input type="radio" id="K_N"  name="Q3answer" value="Nairobi" > <label > 3-Nairobi </label>
+</div>
+
+ <H4>Q4-What is the Captial city of Vietnam? </H4>
+ <div class="q-style">
+ <input type="radio" id="V_H"  name="Q4answer" value="Hanoi" > <label >1-Hanoi </label>
+ <input type="radio" id="V_M"  name="Q4answer" value="Manila" > <label > 2-Manila  </label>
+  <input type="radio" id="V_J"  name="Q4answer" value="Jakarta" > <label > 3-Jakarta </label>
+</div>
+
+  <H4>Q5- What is the Capital city of  Hungary? </H4>
+  <div class="q-style">
+ <input type="radio" id="H_C"  name="Q5answer" value="Copenhagen" > <label > 1-Copenhagen </label>
+ <input type="radio" id="H_B"  name="Q5answer" value="Budapest" > <label > 2-Budapest </label>
+ <input type="radio" id="H_M"  name="Q5answer" value="Amesterdam" > <label > 3-Amesterdam </label>
+</div>
+
+</form>
+
+</div>
+
+
+<button onclick="myanswer();"> submit</button>
+
+
+
+<p id="score"> your score  is : </p>
+
+<p id="win">  you can try and change your answers multiple times</p>
+
+<button onclick="info1();"> I give up! show me all the correct answers  </button>
+
+<div id="later"  class="q-style" >
+  
+<p>Q1 the current capital of NZ is Wellington NOT Auckland, it used to be Auckland but it had changed since 1865, <a href="https://nzhistory.govt.nz/politics/capital-150"> for more info </a></p>
+<p>Q2 Russia </p>
+<P> Q3 <a href="https://www.britannica.com/place/Nairobi">  Nairobi</a> is the Capital Kenya,
+Addis Ababa is in Ethiopia. </P>
+<P> Q4 <a href="https://www.britannica.com/place/Hanoi"> Hanoi</a> is the Capital City of Vietnam, Manila is in the Philippines, Jackarta is in Indonesia  </P>
+<P> Q5 <a href="https://www.britannica.com/place/Budapest"> Budapest</a> is the Capital  of  Hungary </P>
+
+</div>
+
+
+
  
 
   </div>
