@@ -1,33 +1,47 @@
+function myanswer(){
+
+var Q1 = document.geoquiz.Q1answer.value;
+var Q2 = document.geoquiz.Q2answer.value;
+var Q3 = document.geoquiz.Q3answer.value;
+var Q4 = document.geoquiz.Q4answer.value;
+var Q5 = document.geoquiz.Q5answer.value;
 
 
-function myFunction()
+var score = 0 ;
 
-{
-var correct = 0 ;
+if (Q1 == "Wellington"){
+score++;
+document.getElementById("score").innerHTML = " your score  is  " + score +" out of 5 " ;}
 
-var answer1 = prompt("what is the captial city of New zealand ? \n\n 1-Auckland \n\n 2-Melbourne \n\n3-Wellington ");
-if ( answer1.toUpperCase() === 'WELLINGTON') {
-correct += 1;
+
+if (Q2 == "Russia"){
+score++;
+document.getElementById("score").innerHTML = " your score  is  " + score +" out of 5 " ;}
+
+
+
+if (Q3 == "Nairobi"){
+score++;
+document.getElementById("score").innerHTML = " your score  is  " + score +" out of 5 " ;}
+
+
+if (Q4 == "Hanoi"){
+score++;
+document.getElementById("score").innerHTML = " your score  is  " + score +" out of 5 " ;}
+
+if (Q5 == "Budapest"){
+score++;
+document.getElementById("score").innerHTML = " your score  is  " + score +" out of 5 " ;}
+
+else if ( score == 0 ) {
+document.getElementById("score").innerHTML = " your score  is 0";
 }
 
-                     
- var answer2 = prompt( "what is the country that has the largest surface area ? \n\n 1-United States \n\n  2-Russia \n\n  3-China");
-if (answer2.toUpperCase() ==='RUSSIA'){
-  correct += 1;
 }
 
-var answer3 = prompt ("what is the captial city of Kenya ? \n\n  1-Mombasa \n\n  2-Addis Ababa  \n\n 3-Nairobi")
-if ( answer3.toUpperCase() ==='NAIROBI'){
-  correct += 1;
+
+function info1() {
+document.getElementById("later").style.visibility = "visible";
 }
 
-var answer4 = prompt ("what is the captial city of Vietnam ? \n\n 1-Hanoi \n\n  2-Manila  \n\n 3-Jakarta ")
-if ( answer4.toUpperCase() ==='HANOI'){
-  correct += 1;
-}
- var answer5 = prompt ("what is the capital city of  Hungary ? \n\n  1-Copenhagen \n\n 2-Budapest \n\n  3-Amesterdam" )  
- if ( answer5.toUpperCase() ==='BUDAPEST'){
-  correct += 1;   }               
-   
-document.write("the result is "+ correct +" out of 5 questions correct.");
-   }
+
