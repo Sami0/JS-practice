@@ -5,6 +5,7 @@ h1{
 }
 p{
 	color: #f1f1f1;
+  ;
 }
 body {
   background-image: url("https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=3eac7c7ca13559adc93b7f23f1fb653b");
@@ -14,7 +15,27 @@ body {
 }
 
 
+.bg-square{
+  background-color: white;
+  padding:20px;
+  margin:30px;
+}
+.q-style{
+   padding:20px;
+  margin:30px;
+  font-size: 20px; ;
+  font:;
+}
+
+#score{
+  background-color: white;
+  padding:20px;
+  margin:30px;
+  color:black;
+}
 button {
+  padding:20px;
+  margin:30px;
       font-family: inherit;
     font-size: 100%;
     padding: 0.5em 1em;
@@ -25,4 +46,27 @@ button {
     background-color: #4487FA;
     text-decoration: none;
     border-radius: 12px;
+}
+
+#later {
+  visibility: hidden;
+  padding:20px;
+  margin:30px;
+
+      font-family: inherit;
+    font-size: 100%;
+    padding: 0.5em 1em;
+    color: #ffffff; 
+    
+    border: 1px solid #085DED;  
+    
+    background-color: #4487FA;
+    text-decoration: none;
+    border-radius: 12px;
+}
+#win{
+    background-color: white;
+  padding:20px;
+  margin:30px;
+  color:black;
 }
